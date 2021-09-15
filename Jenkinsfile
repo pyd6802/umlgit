@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'uname -a'
-                sh 'echo pyd6802 test branch'
+                sh 'echo pyd6802 test branch run 2'
             }
         }
     }
